@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 56px; /* To avoid overlap with fixed navbar */
+}
+
+.home-section {
+    background: url('images/bluecar.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    border-color: #007bff;
+}
+
+
+
+.navbar {
+    padding: 1rem;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.section-title {
+    margin-bottom: 2rem;
+}
+
+.section-text {
+    margin-bottom: 2rem;
+}
+
+.video-box {
+    margin-bottom: 2rem;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item.active {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px; /* Distancia del top */
+    z-index: 1020;
+}
+
+.video-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.vehicle-image {
+    max-width: 70%;
+    height: auto;
+}
+
+/* Nueva clase para controlar el tamaño de las imágenes de las secciones */
+.section-image {
+    max-width: 50%; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    margin: 0 auto; /* Centrar la imagen */
+    display: block;
+}
